@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=400.700">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rubik+Mono+One&family=Splash&display=swap" rel="stylesheet">   
+<title> A Bela e a Fera</title>
+</head>
+<body>
+    <main> 
+        <div class="passo ativo" id="passo-0">
+            <img src="Início Bela vive em uma pequena aldeia com seu pai, Maurice.png" alt="0">
+            <p>PRECIONE O BOTÃO ABAIXO PARA COMEÇAR:</p>
+            <button class="btn-proximo" data-proximo="1">COMEÇAR</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="rosa-gif.gif" alt="1">
+            <p>DECISÃO 1:
+                MAURECE SE PERDE NA FLORESTA, O QUE ELE DEVE FAZER?
+                </p>
+            <button class="btn-proximo" data-proximo="6">PROCURAR AJUDA EM UM VILAREJO PRÓXIMO</button>
+            <button class="btn-proximo" data-proximo="2">ENTRAR NO CASTELO</button>
+        </div>
+        <div class="passo" id="passo-2">
+        <img src="giphy (1).gif" alt="2">   
+            <p>DECISÃO 2: NOVO RUMO PARA A HISTÓRIA: BELA DEVE TOMAR O LUGAR DE SEU PAI NO CALABOLÇO DO CASTELO?</p>
+            <button class="btn-proximo" data-proximo="3">SIM</button>
+            <button class="btn-proximo" data-proximo="6">NÃO</button>
+        </div>
+        <div class="passo" id="passo-3">
+        <img src="giphy.gif" alt="3">
+            <p>DECISÃO 3: CONFRONTO COM OS ALDEÕES: BELA DEVE TENTAR ESCAPAR OU FICAR?</p>
+            <button class="btn-proximo" data-proximo="6">TENTAR ESCAPAR</button>
+            <button class="btn-proximo" data-proximo="4">FICAR E CONHECER A FERA</button>
+        </div>
+        <div class="passo" id="passo-4">
+        
+        <img src="giphy (2).gif" alt="4">
+            <p>DECISÃO 4:  DESENVOLVIMENTO DO RELACIONAMENTO: APÓS SALVAR SEU PAI, BELA DEVE VOLTAR PARA A FERA? </p>
+            <button class="btn-proximo" data-proximo="5">SIM= FINAL FELIZ </button>
+            <button class="btn-proximo" data-proximo="6">NÃO= FINAL ALTERNATIVO</butt> 
+        </div>
+        <div class="passo" id="passo-5">
+            <video autoplay muted controls >
+                <source src="A Bela e a Fera ( Sentimentos São ) HD.MP4" type="video/mp4">
+            </video>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="bela 2.gif" alt="5">
+                <p>RESPOSTA INCORRETA, CLIQUE NO BOTÃO ABAIXO PARA REINICIAR:</p>
+                <button class="btn-proximo" data-proximo="0">REINICIAR</button>
+        </div>
+        <audio id="trilhaSonora" src="Beauty and the Beast (From Beauty and the Beast) [Instrumental Philharmonic Orchestra Version].mp3"></audio>
+    
+
+    <script src="script.js"></script>
+</body>
