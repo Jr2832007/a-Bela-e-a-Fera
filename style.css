@@ -1,0 +1,82 @@
+
+
+body {
+    background-color: #020525f2;
+    color: rgb(183, 188, 134);
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 560px;
+    margin: 0;
+}
+
+button {
+    background-color: #1e3878;
+    color: rgb(203, 207, 147);
+    font-family:  "Rubik Mono One", monospace;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; ;
+    border-radius: 18px; 
+    margin: 0px;
+}
+
+.passo.ativo {
+    display:block;
+}
+.passo {
+    display: none;
+}
+
+
+
+main {
+    text-align: center;
+    max-width:200%;
+    font-size: 23px;
+    
+}
+
+img{    
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+img[src="bela 2.gif"]{
+    width: 1550px;
+    margin: 0;
+    height: 770px;
+}
+img[src="rosa-gif.gif"], img[src="giphy.gif"]{
+    width: 1550px;
+    margin: 0;
+    height: 770px;
+}
+   
+
+img[src="giphy (1).gif"],img[src="giphy (2).gif"]{ 
+    width: 1550px;
+    margin: 10;
+    height: 770px;
+}
+    
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover; 
+}
+
+
